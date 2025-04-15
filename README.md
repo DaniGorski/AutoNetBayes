@@ -11,24 +11,24 @@ AutoNetBayes is a tool developed for conducting Bayesian network meta-analyses u
 
 # 2. Use and data organization
 The data for each intervention in the study should be organized so that each set of information occupies one row. The file should contain the following columns:
-•	Study Identification: Column named study. In the case of crossover studies, name the different periods with equal numbers followed by different letters (e.g., 1A and 1B)
-•	Treatments: Column named treatment. Do not use special characters or spaces in the names of interventions.
-•	Number of Participants: Column named sampleSize.
-•	Outcomes:
-    Dichotomous: Column responders (number of patients with the outcome).
-  	Continuous: Column mean (mean) and std.dev (standard deviation or standard error).
-    Survival: Column responders (number of patients with the outcome) and, if applicable, column exposure.
+1. Study Identification: Column named study. In the case of crossover studies, name the different periods with equal numbers followed by different letters (e.g., 1A and 1B)
+2. Treatments: Column named treatment. Do not use special characters or spaces in the names of interventions.
+3. Number of Participants: Column named sampleSize.
+4. Outcomes:
+*Dichotomous: Column responders (number of patients with the outcome).
+*Continuous: Column mean (mean) and std.dev (standard deviation or standard error).
+*Survival: Column responders (number of patients with the outcome) and, if applicable, column exposure.
 
 After uploading the data, the user must enter the type of outcome (dichotomous, continuous or survival) and can use the following functions:
-•	Check the network connection
-•	Check the name of the requires colunms 
-•	Built the network diagram
-•	CCalculate network metrics
-•	Build a bayesian model 
-•	Check the model convergence
-•	Check the incoherence in the network
-•	Visualization and export the league table
-•	Visualization and export of the SUCRA
+1. Check the network connection
+2. Check the name of the requires colunms 
+3. Built the network diagram
+4. Calculate network metrics
+5. Build a bayesian model 
+6. Check the model convergence
+7. Check the incoherence in the network
+8. Visualization and export the league table
+9. Visualization and export of the SUCRA
 
 
 
